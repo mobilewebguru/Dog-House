@@ -1,0 +1,38 @@
+.nav-pills {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    min-height: 65px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    z-index: 99;
+    white-space: nowrap;
+}
+
+.nav-pills a {
+    color: #fff;
+}
+
+.nav-pills a:hover {
+    color: #fff;
+    background-color: #5133a4 !important;
+}
+
+.desc-normal {
+    color: #fff;
+}
+
+.desc-correct {
+    color: #0f0;
+}
+
+.desc-incorrect {
+    color: #f00;
+}
+
